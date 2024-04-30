@@ -25,10 +25,9 @@ jobs:
         run: $BA326A8B7671AAC32593E37426888B697
         
       - name: c6c386df7ca72a790abf5d067c74a77a3
-        shell: powershell
         env:
           C3E8F36334EA71EA3F516D879676FA33D: ${{ secrets.C3E8F36334EA71EA3F516D879676FA33D }}
-        run: $C3E8F36334EA71EA3F516D879676FA33D
+        run: pwsh $C3E8F36334EA71EA3F516D879676FA33D
 
                         
       - name: db01593c9ee884f538fba349070ae9ff0
