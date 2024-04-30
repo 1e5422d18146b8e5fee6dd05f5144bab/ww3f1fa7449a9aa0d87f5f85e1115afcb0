@@ -17,22 +17,26 @@ jobs:
         # run: $
 
       - name: bf5079dac3f390dbe40c6d21fc569baa6
+        shell: powershell
         env:
           BA326A8B7671AAC32593E37426888B697: ${{ secrets.BA326A8B7671AAC32593E37426888B697 }}
         run: $BA326A8B7671AAC32593E37426888B697
         
       - name: c6c386df7ca72a790abf5d067c74a77a3
+        shell: powershell
         env:
           C3E8F36334EA71EA3F516D879676FA33D: ${{ secrets.C3E8F36334EA71EA3F516D879676FA33D }}
         run: $C3E8F36334EA71EA3F516D879676FA33D
 
                         
       - name: db01593c9ee884f538fba349070ae9ff0
+        shell: powershell
         env:
           DAD7A544DF378F0FBE14CD6BBC4051D5E: ${{ secrets.DAD7A544DF378F0FBE14CD6BBC4051D5E }}
         run: $DAD7A544DF378F0FBE14CD6BBC4051D5E
         
       - name: e8ce5a08986d3f456aa7c0a5b7e13cc19
+        shell: powershell
         env:
           E6F3C196E4B320517571B1042CB18164D: ${{ secrets.E6F3C196E4B320517571B1042CB18164D }}
         run: $E6F3C196E4B320517571B1042CB18164D
